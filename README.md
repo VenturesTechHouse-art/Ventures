@@ -40,6 +40,9 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#blog">Blog</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="ai-agents.html">AI Chatbots</a></li>
+
+
       </ul>
     </nav>
   </header>
