@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ventures Tech House | AI Solutions</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0c0f1f; color: #fff; }
     header, footer, section { padding: 40px 20px; text-align: center; }
-    header { background: #12172d; display: flex; justify-content: space-between; align-items: center; padding: 20px; }
-    nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+    header { background: #12172d; display: flex; justify-content: space-between; align-items: center; padding: 20px; flex-wrap: wrap; }
+    nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; flex-wrap: wrap; justify-content: center; }
     nav ul li a { color: #00c4ff; text-decoration: none; font-weight: bold; }
     .logo img { height: 50px; }
     .hero { background: linear-gradient(to right, #1e1f4b, #2a265f); padding: 80px 20px; }
@@ -24,136 +24,61 @@
   </style>
 </head>
 <body>
-<div style="text-align: center; margin-top: 20px;">
-  <img src="logo.jpg" alt="Logo" style="height: 80px;">
-</div>
 
-
-  <!-- Header -->
-  <header>
-    <div class="logo"><img src="logo.png" alt="Ventures Tech House "></div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="ai-agents.html">AI Chatbots</a></li>
-
-
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Unlock the Power of Technology with AI Solutions Tailored for Your Business</h1>
-    <p>From AI chatbots to system development, we empower your business with cutting-edge technology.</p>
-    <a href="https://form.jotform.com/251101637394049" class="cta-button" target="_blank">Get Started Today</a>
-
-  </section>
-
-  <!-- About Us Section -->
-  <section id="about">
-    <h2>Who We Are</h2>
-    <p>Ventures Tech House is a leader in AI development, IT consultancy, and system solutions. With years of experience, we specialize in innovative technology services designed to streamline operations, enhance customer experiences, and drive growth for businesses of all sizes.</p>
-    <a href="#about" class="link-button">Learn More</a>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <h3>Tailored solutions to take your business to the next level.</h3>
-    <div class="services">
-      <div class="service-card">
-        <h4>AI Training</h4>
-        <p>Empower your team with cutting-edge AI knowledge.</p>
-      </div>
-      <div class="service-card">
-        <h4>Chatbots & Apps</h4>
-        <p>Custom AI chatbots that engage and convert.</p>
-      </div>
-      <div class="service-card">
-        <h4>System Development</h4>
-        <p>Scalable system solutions to meet your unique business needs.</p>
-      </div>
-      <div class="service-card">
-        <h4>IT Consultancy</h4>
-        <p>Expert advice and support to optimize your tech infrastructure.</p>
-      </div>
-      <div class="service-card">
-        <h4>Cloud Solutions</h4>
-        <p>Cloud services that scale with your business growth.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Choose Us Section -->
-  <section>
-    <h2>Why Ventures Tech House?</h2>
+<!-- Header -->
+<header>
+  <div class="logo"><img src="logo.png" alt="Ventures Tech House"></div>
+  <nav>
     <ul>
-      <li>Custom AI solutions</li>
-      <li>Experienced professionals</li>
-      <li>End-to-end support</li>
-      <li>Scalable and secure systems</li>
-      <li>Client-first approach</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="ai-agents.html">AI Chatbots</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+  </nav>
+</header>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial-slider">
-      <p>"Ventures Tech House transformed our business with an incredible AI chatbot that increased customer engagement!"</p>
-    </div>
-  </section>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Unlock the Power of Technology with AI Solutions Tailored for Your Business</h1>
+  <p>From AI chatbots to system development, we empower your business with cutting-edge technology.</p>
+  <a href="https://form.jotform.com/251101637394049" class="cta-button" target="_blank">Get Started Today</a>
+</section>
 
-  <!-- Security & Trust Section -->
-  <section>
-    <h2>Your Security is Our Priority</h2>
-    <p>We prioritize the security of your data with state-of-the-art encryption and strict confidentiality agreements.</p>
-    <ul>
-      <li>Secure and encrypted systems</li>
-      <li>HIPAA and GDPR-compliant practices</li>
-      <li>Regular security audits</li>
-      <li>Data protection protocols</li>
-      <li>Privacy-first policies</li>
-    </ul>
-  </section>
+<!-- About Section -->
+<section id="about">
+  <h2>Who We Are</h2>
+  <p>Ventures Tech House specializes in AI development, IT consultancy, and system solutions designed to streamline operations and boost growth.</p>
+  <a href="#about" class="link-button">Learn More</a>
+</section>
 
-  <!-- CTA Section -->
-  <section>
-    <h2>Ready to Get Started?</h2>
-    <a href="#contact" class="cta-button">Contact Us Today</a>
-  </section>
-
-  <!-- Footer -->
- <footer style="background: #12172d; padding: 40px 20px; text-align: center; font-size: 0.9em; color: #94a3b8;">
-  <div style="margin-bottom: 10px;">
-    <a href="#" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Home</a> |
-    <a href="#about" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">About</a> |
-    <a href="#services" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Services</a> |
-    <a href="#" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Contact</a>
+<!-- Services Section -->
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-card"><h4>AI Training</h4><p>Empower your team with AI knowledge.</p></div>
+    <div class="service-card"><h4>Chatbots & Apps</h4><p>Custom AI chatbots that engage and convert.</p></div>
+    <div class="service-card"><h4>System Development</h4><p>Scalable solutions to meet your needs.</p></div>
+    <div class="service-card"><h4>IT Consultancy</h4><p>Optimize your tech infrastructure.</p></div>
+    <div class="service-card"><h4>Cloud Solutions</h4><p>Cloud services that grow with you.</p></div>
   </div>
-  <div style="margin: 8px 0;">
-    <span>Call / WhatsApp: 0721 446 201 | Email: <a href="mailto:venturestripplej@gmail.com" style="color: #00c4ff;">venturestripplej@gmail.com</a></span>
-  </div>
-  <div style="margin: 8px 0;">
-    <a href="#" style="color:#00c4ff; margin: 0 10px;">Facebook</a>
-    <a href="#" style="color:#00c4ff; margin: 0 10px;">Twitter</a>
-    <a href="#" style="color:#00c4ff; margin: 0 10px;">LinkedIn</a>
-  </div>
-  <div style="margin-top: 15px;">© 2025 <strong>Ventures Tech House</strong>. All rights reserved.</div>
+</section>
+
+<!-- CTA Section -->
+<section>
+  <h2>Ready to Get Started?</h2>
+  <a href="#contact" class="cta-button">Contact Us Today</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 <strong>Ventures Tech House</strong>. All rights reserved.</p>
 </footer>
 
-<!-- Floating Chat Button -->
-<div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
-  <a href="https://agent.jotform.com/019616b0e7fc7b0689fdb6bd9f68bc51ed97" target="_blank" 
-     style="background-color: #00c4ff; color: #000; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
-    💬 Chat with Us
-  </a>
+<!-- Chat Button -->
+<div style="position: fixed; bottom: 20px; right: 20px;">
+  <a href="https://agent.jotform.com/019616b0e7fc7b0689fdb6bd9f68bc51ed97" target="_blank" style="background-color: #00c4ff; color: #000; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold;">💬 Chat with Us</a>
 </div>
 
 </body>
