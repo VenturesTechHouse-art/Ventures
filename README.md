@@ -127,24 +127,24 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="quick-links">
-      <a href="#">Home</a> |
-      <a href="#about">About Us</a> |
-      <a href="#services">Services</a> |
-      <a href="#">Privacy Policy</a> |
-      <a href="#">Terms of Service</a>
-    </div>
-    <div class="contact-info">
-      Call / WhatsApp 0721 446 201
-| Email: venturestripplej@gmail.com
-    </div>
-    <div class="social-links">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">LinkedIn</a>
-    </div>
-  </footer>
+ <footer style="background: #12172d; padding: 40px 20px; text-align: center; font-size: 0.9em; color: #94a3b8;">
+  <div style="margin-bottom: 10px;">
+    <a href="#" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Home</a> |
+    <a href="#about" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">About</a> |
+    <a href="#services" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Services</a> |
+    <a href="#" style="color:#00c4ff; margin: 0 8px; text-decoration: none;">Contact</a>
+  </div>
+  <div style="margin: 8px 0;">
+    <span>Call / WhatsApp: 0721 446 201 | Email: <a href="mailto:venturestripplej@gmail.com" style="color: #00c4ff;">venturestripplej@gmail.com</a></span>
+  </div>
+  <div style="margin: 8px 0;">
+    <a href="#" style="color:#00c4ff; margin: 0 10px;">Facebook</a>
+    <a href="#" style="color:#00c4ff; margin: 0 10px;">Twitter</a>
+    <a href="#" style="color:#00c4ff; margin: 0 10px;">LinkedIn</a>
+  </div>
+  <div style="margin-top: 15px;">© 2025 <strong>Ventures Tech House</strong>. All rights reserved.</div>
+</footer>
+
 <!-- Floating Chat Button -->
 <div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
   <a href="https://agent.jotform.com/019616b0e7fc7b0689fdb6bd9f68bc51ed97" target="_blank" 
